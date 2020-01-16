@@ -1,0 +1,12 @@
+<web-app>
+	<servlet>
+        <servlet-name>ServletSessione</servlet-name>
+        <servlet-class>cuccu.contatore</servlet-class>
+    </servlet>
+
+	<servlet-mapping>
+        <servlet-name>ServletSessione</servlet-name>
+        <url-pattern>/contatoreServlet</url-pattern>
+    </servlet-mapping>
+	
+</web-app>
